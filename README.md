@@ -11,7 +11,7 @@ Mantener la comunicación con personas que estimamos y nos interesan, es fundame
 
 
 
-![Boceto](https://previews.dropbox.com/p/thumb/ABImwrEX70a82RmY76Emnm8RznXTkQ6QMRinj1bYtvp31nYdKjJ-MWxyOL62MLFp-mX4BjeKYqjPmFa54QTR-XGAltPTBlVFT9UbQlmt5QCTCdeknlUxbpzWdHPsOnTLOMJJd0X4dXcW3QZriO-R7luhMXKirK2RRXF21doaLfMyjEwiO9xS1wGZRacrokRnLqgS68V9S71B7sgNL3jUe15I-RSHtPTFXpDQlcY6MYwDQu7A1gX9cR6sLjpIm-NIaNLoFZP9oT0B10YJpBm5ZZip1Dgeyhceu_1WEjzKE0h2K6z_TtBtlFboUZcGRWEVjySbg2iOEwtGXnhwjp8eLKtNmEWSYq04hHyOeMNbRRPt5uW7nxiJTeVBdfl0VsKaSlvLYK6NG7zD0BbEUk1McEiI4rUadi_hThGFFROa16RxKg/p.jpeg?fv_content=true&size_mode=5
+![Boceto](https://raw.githubusercontent.com/Karinna88/SCL017-cipher/main/assets/images/boceto.jpg
 )
 
 
