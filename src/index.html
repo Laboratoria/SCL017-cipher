@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href= "gabbyholics.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div id="root">
+     
       <h1>Cifrado de Cesar</h1>
-      <label for="phrases">Escribe lo que desesas encriptar</label> <br>
-      <input type = "text" id = "phrases"> <br>
-
-       <input type="button" value="Encriptar" onclick= "Descifrar()"> 
-    
-
+         <h3>Escribe el mesaje que deseas descifrar </h3>
+      <input type = "text" id = "frases" placeholder="Escribe el codigo"> 
+      <h3>Movimientos</h3>
+      <input type="number" id="desplazamiento" value="0">
+        <input type="button" id ="cifrar" value="codificar">
+        <input type="button" id="descifrar" value="descifrar">
+      <h3>Cifrado</h3>
+       <input type="text" id ="resultado" readonly> 
+  
     <hr>
-
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>
