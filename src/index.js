@@ -12,7 +12,7 @@ const frases = document.getElementById("frases");
 const desplazamiento = document.getElementById("desplazamiento");
 const cifrar = document.getElementById("cifrar");
 const resultado = document.getElementById("resultado");
-const  descifrar = document.getElementById("descifrar")
+const  descifrar = document.getElementById("descifrar");
 
 //Recibir la informacion del boton
 
