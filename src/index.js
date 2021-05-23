@@ -23,20 +23,22 @@ descifrar.addEventListener("click", btnDescifrar);
 function btnCifrar() {
   const mensaje = frases.value; 
   const movimientos = desplazamiento.value;
-  resultado.value=textoCodificado(mensaje,movimientos);
+  resultado.value=cipher.textoCodificado(mensaje,movimientos);
 }
 // / Creando una funcion para almacenar los datos del botn descifrar
 
 function btnDescifrar(){
   const mensaje = frases.value; 
   const movimientos = desplazamiento.value;
-  resultado.value=textoDescodificado(mensaje,movimientos)
-}
-//Cambiar funcion 
+  resultado.value= cipher.textoDescodificado(mensaje,movimientos);
+  
+} 
+
+//Cambiar funcion a dentro de un objeto en cipher
 
 // Formula usanndo las funciones 
-
- function textoCodificado(mensaje,movimientos){
+/*
+ function textoCodificado(mensaje,movimientos) {
     let encriptado="";
 
    for (let i=0;i<mensaje.length;i++){
@@ -47,12 +49,12 @@ function btnDescifrar(){
         const ubicacion = (asciiNum - 65 + movimientos);
         const formula = ubicacion %26 + 65;
         encriptado+= String.fromCharCode(formula);
-      } else if (asciiNum >=91 && asciiNum <=97 ) { // colocar rango de letras 
-        movimientos =(movimientos %26+26)%26;
+      } /* else if  (asciiNum >=91 && asciiNum <=96 ) { // colocar rango de letras 
+        movimientos =(movimientos % 6 + 6) % 6;
         const ubicacion = (asciiNum - 91 + movimientos);
-        const formula = ubicacion %26 + 97;
+        const formula = ubicacion %26 + 91;
         encriptado+= String.fromCharCode(formula);
-      } else if (asciiNum >=97 && asciiNum <=122 ) { // colocar rango de letras 
+      }  else if (asciiNum >=97 && asciiNum <=122 ) { // colocar rango de letras 
         movimientos =(movimientos %26+26)%26;
         const ubicacion = (asciiNum - 97 + movimientos);
         const formula = ubicacion %26 + 97;
@@ -78,10 +80,10 @@ function btnDescifrar(){
         const ubicacion = (asciiNum - 65 - movimientos);
         const formula = ubicacion %26 + 65;
         Desencriptado+= String.fromCharCode(formula);
-      } else if (asciiNum >=91 && asciiNum <=97 ) { // colocar rango de letras 
-        movimientos =(movimientos %26+26)%26;
+      } /*else if (asciiNum >=91 && asciiNum <=96 ) { // colocar rango de letras 
+        movimientos =(movimientos % 6 + 6) % 6;
         const ubicacion = (asciiNum - 91 - movimientos);
-        const formula = ubicacion %26 + 97;
+        const formula = ubicacion %6 + 91;
         Desencriptado+= String.fromCharCode(formula);
       } else if (asciiNum >=97 && asciiNum <=122 ) { // colocar rango de letras 
         movimientos =(movimientos %26+26)%26;
@@ -97,7 +99,7 @@ function btnDescifrar(){
       }
       return Desencriptado;   
 
-   }
+   }*/
  
  
 

@@ -4,25 +4,41 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href= "gabbyholics.ico"> 
+    <link rel="icon"href= "gabbyholics.ico"> 
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
   </head>
-  <body>
-    <div id="root">
-     
-      <h1>Cifrado de Cesar</h1>
-         <h3>Escribe el mesaje que deseas descifrar </h3>
-      <input type = "text" id = "frases" placeholder="Escribe el codigo"> 
-      <h3>Movimientos</h3>
-      <input type="number" id="desplazamiento" value="0" min="-30" max="30">
-        <input type="button" id ="cifrar" value="codificar">
-        <input type="button" id="descifrar" value="descifrar">
-      <h3>Cifrado</h3>
-       <input type="text" id ="resultado" readonly> 
-  
-    <hr>
-  
+    <body>
+        <header>
+          <h1>Crea tu Cifrado</h1>
+        </header>
+        <div class="contenedor">   
+        
+           <div class="contenedor-mensaje">
+              <h3>Mensaje</h3>
+              <textarea  id="frases" cols="30" rows="10"  placeholder="Escribe el codigo"></textarea>
+            </div>
+            <div class="contenedor-botones">
+              <h3>Movimientos</h3>
+                <div class="contenedor-botones-desplazamiento">
+                  <input type="number" id="desplazamiento" value="0" min="-30" max="30">
+                </div>
+              <input type="button" id ="cifrar" value="codificar">
+              <input type="button" id="descifrar" value="descifrar"> 
+            </div>
+            <div class="contenedor-resultado">
+              <h3>Cifrado</h3>
+              <textarea  id ="resultado" cols="30" rows="10" readonly></textarea>
+            </div>  
+
+         </div>  
+         
+         <div class="contenedor-2">
+         <footer>
+            <h4>Gabbyholics 2021 © </h4>
+            <p>TODOS LOS DERECHOS RESERVADOS</p>
+          </footer>
+        </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
