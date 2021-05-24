@@ -20,8 +20,9 @@ Usamos un ambiente minimalista, donde lo principal era enfocarnos en los recuadr
 ### Prototipo Inicial 🖌
 Desde un pirncipio maquetamos un diseño sencillo donde el principal atractivo sea la aplicacion del encriptado.
 
+
 ### Prototipo en figma 👁‍🗨
-[]
+[![Prototipo](https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/master/Home_State%201.png "Prototipo")](http://https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/master/Home_State%201.png "Prototipo")
 ### Explicacion de diseño y colores✍️
 
 Ideé en un diseño minimalista ya que para el fin del proyecto considero importante que no haya elementos adicionales ya que va hacer adaptado a la necesidad del consumidor.
