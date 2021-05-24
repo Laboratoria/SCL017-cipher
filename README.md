@@ -1,3 +1,62 @@
+
+
+# Creador de Cifrado HBCZ 👩🏽‍💻
+
+## Introducccion 🤓
+  El proyecto a continuacion muestra la implementacion de un *cifrado*  que sera creado con el metodo de "Cifrado Cesar". Lo que haremos es aplicar la formula conocida, al mismo tiempo hacerla mas eficiente con un programa que la ejecute automaiticamente y con los movimientos que deser el usuario.
+
+## Usuarios del producto 👩‍🚀 👨‍⚖️ 👩‍🔬
+Principalmente es para quien quiera enviar un mensaje corto con un cifrado y que el receptor pueda descifrarlo.  Se adaptaria a quienes necesiten esta función.
+
+Podria ser, un integrado para uso de WhatsApp, o Redes internas de una empresa.
+
+### Solucion que crea nuestro producto a su necesidades.👾
+- Permitirles crear un cifrado de numeros de desplazamiento a su criterio.
+- Poder cifrar mayusculas y minisculas.
+
+## Proceso de creacion👩‍🎨
+### Diseño 🎨
+Usamos un ambiente minimalista, donde lo principal era enfocarnos en los recuadros donde queriamos enviar y recibir el mensaje. Colores sobrios para hacer facilidad de lectura del mismo.
+### Prototipo Inicial 🖌
+Desde un pirncipio maquetamos un diseño sencillo donde el principal atractivo sea la aplicacion del encriptado.
+
+### Prototipo en figma 👁‍🗨
+[]
+### Explicacion de diseño y colores✍️
+
+Ideé en un diseño minimalista ya que para el fin del proyecto considero importante que no haya elementos adicionales ya que va hacer adaptado a la necesidad del consumidor.
+
+La paleta de colores y las razones por la que fueron escogidos son:
+- Blanco⚪️:  Refleja calma y al mismo tiempo enfoquue.
+- Verde🟢: Seguridad.
+- Azul🔵: Comunicacion
+- Negro ⚫️: Hacer enfasis en los titulos con un color legible
+
+
+## Conclusion
+Se creo un sistema automatico de cifrado de -30 a 30 Movimientos de mayusculas y minisculas. Con un diseño minimalista y bastante intuitivo para el usuario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice

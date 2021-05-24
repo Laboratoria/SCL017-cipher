@@ -1,6 +1,6 @@
 //Colocancando una funcion dentro de un obejeto y pasa  a ser una propiedad
 const cipher = {
-   textoCodificado: (mensaje,movimientos) =>{
+   encode: (mensaje,movimientos) =>{
   let encriptado="";
 //Aplico un ciclo repetitivo para la formula
  for (let i=0;i<mensaje.length;i++){
@@ -24,7 +24,7 @@ const cipher = {
     } 
     else {
         encriptado+= String.fromCharCode(asciiNum)
-      };
+      }
     
         
     }
@@ -32,7 +32,7 @@ const cipher = {
  },
 
 //Lo mismo pero restando movimientos
- textoDescodificado: (mensaje,movimientos) =>{
+ decode: (mensaje,movimientos) =>{
    let Desencriptado="";
 
  for (let i=0;i<mensaje.length;i++){
@@ -56,7 +56,7 @@ const cipher = {
     } 
     else {
         Desencriptado+= String.fromCharCode(asciiNum)
-      };
+      }
     
         
     }

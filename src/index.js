@@ -23,14 +23,14 @@ descifrar.addEventListener("click", btnDescifrar);
 function btnCifrar() {
   const mensaje = frases.value; 
   const movimientos = desplazamiento.value;
-  resultado.value=cipher.textoCodificado(mensaje,movimientos);
+  resultado.value=cipher.encode(mensaje,movimientos);
 }
 // / Creando una funcion para almacenar los datos del botn descifrar
 
 function btnDescifrar(){
   const mensaje = frases.value; 
   const movimientos = desplazamiento.value;
-  resultado.value= cipher.textoDescodificado(mensaje,movimientos);
+  resultado.value= cipher.decode(mensaje,movimientos);
   
 } 
 
