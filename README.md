@@ -19,10 +19,10 @@ Podria ser, un integrado para uso de WhatsApp, o Redes internas de una empresa.
 Usamos un ambiente minimalista, donde lo principal era enfocarnos en los recuadros donde queriamos enviar y recibir el mensaje. Colores sobrios para hacer facilidad de lectura del mismo.
 ### Prototipo Inicial 🖌
 Desde un pirncipio maquetamos un diseño sencillo donde el principal atractivo sea la aplicacion del encriptado.
-
-
+![](.\papel-2.jpeg)
 ### Prototipo en figma 👁‍🗨
-[![Prototipo](https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/master/Home_State%201.png "Prototipo")](http://https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/master/Home_State%201.png "Prototipo")
+![Prototipo](.\Home-State-1.png)
+
 ### Explicacion de diseño y colores✍️
 
 Ideé en un diseño minimalista ya que para el fin del proyecto considero importante que no haya elementos adicionales ya que va hacer adaptado a la necesidad del consumidor.
@@ -36,6 +36,7 @@ La paleta de colores y las razones por la que fueron escogidos son:
 
 ## Conclusion
 Se creo un sistema automatico de cifrado de -30 a 30 Movimientos de mayusculas y minisculas. Con un diseño minimalista y bastante intuitivo para el usuario.
+[![Marca](https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/Final/foto-1.jpg "Marca")](htthttps://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/Final/foto-1.jpgp:// "Marca")
 
 
 

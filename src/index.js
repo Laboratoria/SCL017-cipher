@@ -1,42 +1,40 @@
+import cipher from "./cipher.js";
 
-import cipher from './cipher.js';
-console.log("Hola");
 
- // Hacer que el texto escriba en mayusuculas 
- 
- // Crear una funcion de cifrado 
- //Impirmir el texto en el cuadro dos 
+// Hacer que el texto escriba en mayusuculas
 
- //Llamar todos los eventos
-const frases = document.getElementById("frases");
-const desplazamiento = document.getElementById("desplazamiento");
-const cifrar = document.getElementById("cifrar");
-const resultado = document.getElementById("resultado");
-const  descifrar = document.getElementById("descifrar");
+// Crear una funcion de cifrado
+//Impirmir el texto en el cuadro dos
+
+//Llamar todos los eventos
+const phrases = document.getElementById("frases");
+const displacement= document.getElementById("desplazamiento");
+const code= document.getElementById("cifrar");
+const result = document.getElementById("resultado");
+const decipher = document.getElementById("descifrar");
 
 //Recibir la informacion del boton
 
-cifrar.addEventListener("click",btnCifrar);
-descifrar.addEventListener("click", btnDescifrar);
+code.addEventListener("click", btnCode);
+decipher.addEventListener("click", btnDecipher);
 // Creando una funcion para almacenar los datos del botn cifrar
 
-function btnCifrar() {
-  const mensaje = frases.value; 
-  const movimientos = desplazamiento.value;
-  resultado.value=cipher.encode(mensaje,movimientos);
+function btnCode() {
+  const message = phrases.value;
+  const move = displacement.value;
+  result.value = cipher.encode(message, move);
 }
 // / Creando una funcion para almacenar los datos del botn descifrar
 
-function btnDescifrar(){
-  const mensaje = frases.value; 
-  const movimientos = desplazamiento.value;
-  resultado.value= cipher.decode(mensaje,movimientos);
-  
-} 
+function btnDecipher() {
+  const message = phrases.value;
+  const move = displacement.value;
+  result.value = cipher.decode(message, move);
+}
 
 //Cambiar funcion a dentro de un objeto en cipher
 
-// Formula usanndo las funciones 
+// Formula usanndo las funciones
 /*
  function textoCodificado(mensaje,movimientos) {
     let encriptado="";
@@ -100,8 +98,3 @@ function btnDescifrar(){
       return Desencriptado;   
 
    }*/
- 
- 
-
- 
- 

@@ -1,61 +1,55 @@
-body{
-    font-family: 'Source Code Pro', monospace;
-    margin:auto ;
-    background-color: ghostwhite;
-
+body {
+  font-family: "Source Code Pro", monospace;
+  margin: auto;
+  background-color: ghostwhite;
 }
-header{
-    padding: 30px;
-    text-align: center;
-    color: rgb(12, 6, 6);
-
+header {
+  padding: 30px;
+  text-align: center;
+  color: rgb(12, 6, 6);
 }
-.contenedor{
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-    
-
+.contenedor {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.contenedor-mensaje, .contenedor-resultado, .contenedor-botones h3{
-    text-align: center;
-    }
-.contenedor-botones, .contenedor-botones-dezplasamiento{
-    text-align: center;
+.contenedor-mensaje,
+.contenedor-resultado,
+.contenedor-botones h3 {
+  text-align: center;
+}
+.contenedor-botones,
+.contenedor-botones-dezplasamiento {
+  text-align: center;
 }
 
-.contenedor-mensaje, .contenedor-resultado {
-        padding-left:0px;
-        background-color:rgb(80 198 94) ;
-        border-color: rgb(80 171 198);
-        border-style: groove;
-        border-radius: 10px;
-        
+.contenedor-mensaje,
+.contenedor-resultado {
+  padding-left: 0px;
+  background-color: rgb(80 198 94);
+  border-color: rgb(80 171 198);
+  border-style: groove;
+  border-radius: 10px;
 }
 
-
-
-#cifrar:hover{
-        opacity: 0.7;
-        background-color: lawngreen;
+#cifrar:hover {
+  opacity: 0.7;
+  background-color: lawngreen;
 }
-#descifrar:hover{
-        opacity: 0.7;
-        background-color: lawngreen;
+#descifrar:hover {
+  opacity: 0.7;
+  background-color: lawngreen;
 }
-textarea{
-    background-color: rgb(80 198 94);
-    
+textarea {
+  background-color: rgb(80 198 94);
 }
 
-
-.contenedor-2{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    
+.contenedor-2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.contenedor-2  p{
-font-size: 5px;
+.contenedor-2 p {
+  font-size: 5px;
 }
