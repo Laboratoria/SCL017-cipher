@@ -1,5 +1,4 @@
 
-
 # Creador de Cifrado HBCZ 👩🏽‍💻
 
 ## Introducccion 🤓
@@ -32,11 +31,11 @@ La paleta de colores y las razones por la que fueron escogidos son:
 - Verde🟢: Seguridad.
 - Azul🔵: Comunicacion
 - Negro ⚫️: Hacer enfasis en los titulos con un color legible
-
+[Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 
 ## Conclusion
-Se creo un sistema automatico de cifrado de -30 a 30 Movimientos de mayusculas y minisculas. Con un diseño minimalista y bastante intuitivo para el usuario.
-[![Marca](https://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/Final/foto-1.jpg "Marca")](htthttps://raw.githubusercontent.com/GabbyHolics/SCL017-cipher/Final/foto-1.jpgp:// "Marca")
+Se creo un sistema automatico de cifrado de -30 a 30 Movimientos de mayusculas y minisculas. Con un diseño minimalista y bastante intuitivo para el usuario. En el siguiente enlace podras visualizar como se ve el proyecto👉 
+[Link](https://gabbyholics.github.io/SCL017-cipher/)
 
 
 
@@ -57,8 +56,7 @@ Se creo un sistema automatico de cifrado de -30 a 30 Movimientos de mayusculas y
 
 
 
-
-
+<details>
 # Cifrado César
 
 ## Índice
