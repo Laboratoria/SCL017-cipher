@@ -18,9 +18,9 @@ Podria ser, un integrado para uso de WhatsApp, o Redes internas de una empresa.
 Usamos un ambiente minimalista, donde lo principal era enfocarnos en los recuadros donde queriamos enviar y recibir el mensaje. Colores sobrios para hacer facilidad de lectura del mismo.
 ### Prototipo Inicial 🖌
 Desde un pirncipio maquetamos un diseño sencillo donde el principal atractivo sea la aplicacion del encriptado.
-![](.\papel-2.jpeg)
+![](papel-2.jpeg)
 ### Prototipo en figma 👁‍🗨
-![Prototipo](.\Home-State-1.png)
+![Prototipo](Home-State-1.png)
 
 ### Explicacion de diseño y colores✍️
 
