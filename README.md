@@ -16,7 +16,7 @@ Mantener la comunicación con personas que estimamos y nos interesan, es fundame
 
 
 
-
+# Plan de acción:
 
 
 
