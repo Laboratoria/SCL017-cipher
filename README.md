@@ -1,3 +1,25 @@
+# Proceso y decisiones de diseño:
+Este proyecto es una aplicación de mensajes cifrados, en donde se invita a las usuarias a entablar comunicación a través de cifrar y descifrar mensajes, para ello se pensó en presentar la aplicación de una manera amistosa a través de una pantalla, en donde la usuaria pueda desenvolverse de manera intuitiva. Se orientó con un text area en donde se puede ingresar el mensaje y tres botones que puedan ir ayudando a la usuaria a tomar las decisiones para interactuar con la aplicación.
+
+# Usuarias:
+Las principales usuarias de la aplicación son personas que han estado distanciadas este último tiempo, y que necesitan comunicar un mensaje a una persona importante para ellas, un saludo, disculpa, mensaje amoroso, entre otras. La pandemia nos ha mantenido alejados de mucha gente que estimamos y esta aplicación nos ayuda a comunicarnos con ellos de una manera entretenida y novedosa para muchos como es el cifrado de mensajes.
+
+# Respuesta a sus necesidades:
+Mantener la comunicación con personas que estimamos y nos interesan, es fundamental para nuestro bienestar, poder expresar emociones, pensamientos, deseos,  a través de una aplicación de mensajes cifrados, podria ser una respuesta a esta necesidad, ya que ofrece la oportunidad de poder comunicar un mensaje que quizás no se atreven a decir por teléfono o un medio más convencional, de una forma entretenida y novedosa. 
+
+# Boceto inicial de la aplicación: 
+
+
+
+![Boceto](https://raw.githubusercontent.com/Karinna88/SCL017-cipher/main/assets/images/boceto.jpg
+)
+
+
+
+# Plan de acción:
+
+
+
 # Cifrado César
 
 ## Índice

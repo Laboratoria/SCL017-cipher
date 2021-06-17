@@ -1,14 +1,105 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta charset="utf-8" />
+    <title>Proyecto Cipher</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Letra Cuerpo de la Pag.-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"/>
+    <!--Letra Nav-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <!--Nav-->
+    <header class="navigation">
+      <nav>
+        <h1 class="navH1">Para ti ...</h1>
+        <img class="logo" src="../assets/images/logocarta.png" alt="logo" />
+      </nav>
+    </header>
+
+    <main class="contenedor">
+      <!--Bienvenida e Instrucciones al usuario-->
+      <section id="bloque1">
+        <section class="textos-main">
+          <h1 class="titulo">Todo lo que no te he dicho</h1>
+          <h2 class="subtitulo">(hasta ahora)</h2>
+          <h2 class="instructions">
+            <strong>
+              Ahora que no podemos vernos tanto como nos gustaría, es fácil
+              recordar todas esas cosas que no hemos dicho a esas personas
+              importantes ¿A quién no le has dicho lo suficiente? Este es el
+              momento de enviar ese mensaje que tenemos pendiente. Aprovecha el
+              cifrado para expresar lo que te has estado guardando... No olvides
+              compartir el link a esa persona importante, para que pueda
+              descifrar tu mensaje...</strong
+            >
+          </h2>
+        </section>
+
+        <!-- text area/ input offset-->
+        <section>
+          <div class="divMensajeOffset">
+            <div>
+              <h2 class="h2MensajePrincipal">Ingresa tu mensaje:</h2>
+              <p>
+                <textarea
+                  name="mensaje"
+                  id="mensaje"
+                  cols="80"
+                  rows="10"
+                ></textarea>
+              </p>
+            </div>
+            <div class="divMensajePrincipal">
+              <h2 class="h2OffSet">Ingresa un número para cifrar</h2>
+              <input class="offset" type="number" id="desplazamiento" />
+            </div>
+          </div>
+
+          <!--botones cifrar/ descifrar-->
+          <div class="divButton">
+            <p>
+              <button class="buttonCode" id="cifrar" type="button">
+                Cifrar
+              </button>
+              <button class="buttonDecode" id="descifrar" type="button">
+                Descifrar
+              </button>
+            </p>
+          </div>
+        </section>
+      </section>
+
+        <!--Text area con mensaje final-->
+
+        <section id="bloque2" style="display: none">
+          <div class="divMensajeResultado">
+            <h2 class="h2Mensajefinal">Tu mensaje es...</h2>
+            <p>
+              <textarea
+                name="mensajeResultado"
+                id="txtMensajeResultado"
+                cols="100"
+                rows="10"
+              ></textarea>
+            </p>
+            <p>
+              <button class="buttongoBack" id="goBack" type="button">
+                volver
+                </button>
+            </p>
+          </div>
+        </section>
+      
+    </main>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

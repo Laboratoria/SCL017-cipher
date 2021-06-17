@@ -1,0 +1,202 @@
+/*formato general*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*imagen de fondo*/
+body {
+  background-image: url(../assets/images/fondo2.jpg);
+  background-color: hsl(320deg 10% 93% / 80%);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ce1f6a;
+  text-align: center;
+  padding: 10px;
+  font-family: "Pattaya", sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  padding: 6px;
+  display: inline;
+}
+
+.navH1 {
+  display: inline;
+}
+
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: #114e60;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.subtitulo {
+  color: #114e60;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.instructions {
+  color: #114e60;
+  font-size: 25px;
+  font-style: oblique;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 20px;
+  padding: 30px;
+}
+
+.divMensajeResultado {
+  text-align: center;
+}
+
+.h2Mensajefinal {
+  padding-bottom: 10px;
+  color: #114e60;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.h2MensajePrincipal {
+  padding-bottom: 10px;
+  color: #114e60;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+#mensaje {
+  background-color: #c8e1e1; /*#efd1db;*/
+  border: none;
+  color: #000;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.buttonCode {
+  background-color: #ce1f6a;
+  border: none;
+  color: #ffffff;
+  padding: 15px 58px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.buttonDecode {
+  background-color: #ce1f6a;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.divButton {
+  padding: 40px;
+  text-align: center;
+}
+
+.divMensajeOffset {
+  padding: 40px;
+  text-align: center;
+}
+
+.h2OffSet {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  padding: 10px;
+  color: #114e60;
+  font-size: 30px;
+}
+
+.offset {
+  background-color: #50b6b9;
+  border: none;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+#txtMensajeResultado {
+  background-color: #c8e1e1;
+  border: none;
+  color: #000;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.buttongoBack {
+  background-color: #ce1f6a;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+}
